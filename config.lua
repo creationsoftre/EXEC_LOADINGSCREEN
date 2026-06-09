@@ -1,0 +1,42 @@
+Config = {
+    colors = {
+        bgDeep = '#0E0E10',
+        bgMid = '#141517',
+        bodyGlow = '#1A1B1E',
+        textMain = '#FFFFFF',
+        textMuted = '#A8A8A8',
+        accent = '#39FF14',
+        accentCool = '#2EE60F',
+        overlayGlow = 'rgba(57, 255, 20, 0.15)',
+        overlayDark = 'rgba(0, 0, 0, 0.6)',
+        overlayMid = 'rgba(20, 21, 23, 0.85)',
+        stripe = 'rgba(255, 255, 255, 0.03)',
+        progressTrack = '#1A1B1E',
+        progressStroke = '#2A2C30',
+        progressGlow = 'rgba(57, 255, 20, 0.35)',
+    },
+    branding = {
+        title = 'Connecting',
+        showLogo = true,
+        logo = 'assets/logo.png',
+    },
+    background = {
+        useVideo = true,
+        video = 'assets/bgvideo.mp4',
+    },
+    audio = {
+        enabled = true,
+        src = 'assets/music.mp3',
+        volume = 0.12,
+        loop = true,
+        autoplay = true,
+        playText = 'Space: play music',
+        pauseText = 'Space: mute music',
+    },
+    progressLabels = {
+        preparingSession = 'Preparing session',
+        initializingResources = 'Initializing resources',
+        loadingAssets = 'Loading assets',
+        loadingMap = 'Loading map',
+    },
+}
